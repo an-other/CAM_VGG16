@@ -65,5 +65,5 @@ def retest(testloader, model, use_cuda, criterion, epoch, RESUME):
 
     # Save checkpoint.
     if epoch % 2 == 0:
-        torch.save(model.state_dict(), '/content/drive/MyDrive/checkpoint/' + 'cam_inception' +str(RESUME + int(epoch / 10)) + '.pth')
+        torch.save(model.state_dict(), '/content/drive/MyDrive/checkpoint/' + 'vgg16' +str(RESUME + int(epoch / 10)) + '.pth')
         
