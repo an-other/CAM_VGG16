@@ -3,13 +3,11 @@ Class Activation Mapping
 Googlenet, Kaggle data
 """
 
-from update import *
-from data import *
+
 from train import *
 import torch, os
 from torch.utils.data import DataLoader,Dataset
 from torchvision import datasets, transforms
-from inception import inception_v3
 from PIL import Image
 
 from vgg16 import *
